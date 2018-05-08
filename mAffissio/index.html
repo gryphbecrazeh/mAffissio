@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>M. Affissio Associates</title>
+    <link rel="stylesheet" href="css/affissio.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/deviceWidth.css">
+</head>
+
+<body>
+
+    <header id="showcase" class='grid'>
+        <div class="bgimage"></div>
+
+        <div id="heading">
+
+            <h1>M. Affissio Associates</h1>
+            <a href="#section-a" id="quickBooksBtn">
+                <img class="quickBooksPNG" src="images/quickbookstag.png" alt="">
+            </a>
+
+            <p>For all your bookkeeping needs!</p>
+        </div>
+    </header>
+    <div id="navbar" class="grid">
+        <ul id="navUl">
+            <li id="btn1">
+                <div id='servicesDiv' class='btn'>Rest easy now!</div>
+                <section id="section-b" class="grid">
+                    <h1 class="sectionHead">Bookkeeping Services</h1>
+                    <div id='block1' class='block'>
+                        <!-- Read more button -->
+                        <!-- CSS card -->
+                        <div class="bgimage">
+                            <div id="block1Btn" class='btn'><h3>Keep your books in order easily!</h3>
+                                <p>Click to read more</p></div>
+                            <p class="sectionContent"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima veniam id saepe est nulla maiores
+                                totam! Neque necessitatibus magni laborum quam, cupiditate minus totam non molestias corporis,
+                                ratione earum similique.
+                            </p>
+                        </div>
+                        <!-- Read more Text -->
+
+                    </div>
+                    <hr>
+                    <div id="block2" class="block">
+                        <!-- <img src="images/calculator.jpeg" alt="Calculator"> -->
+                        <div class="bgimage">
+                                <div id="block2Btn" class='btn'>Read More</div>
+                            <p class="sectionContent"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ad distinctio error voluptatibus.
+                                Dolore voluptatibus modi porro similique sit illo.</p>
+                        </div>
+
+                    </div>
+
+                    <hr>
+                    <div id="block3" class="block">
+                        <!-- <img src="images/coins.jpeg" alt="Time is money"> -->
+                        <div class="bgimage">
+                                <div id="block3Btn" class='btn'>Read More</div>
+                            
+                            <p class="sectionContent"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti atque consequatur delectus
+                                fugit asperiores veniam labore nihil fugiat distinctio, impedit molestiae aperiam dolorum
+                                quam odio ducimus neque similique doloribus.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of blocks-->
+                </section>
+            </li>
+
+            <li id="btn2">
+                <!-- <img class="quickBooksPNG" src="images/quickbookstag.png" alt=""> -->
+                <div id='quickbooksDiv' class='btn'>Bookkeeping services
+                </div>
+                <section id='section-a' class='grid'>
+                    <h2 class="sectionHead">Quickbooks &amp; other services</h2>
+                    <div class="sectionContent">
+                        <ul>
+                            <li>
+                                Quickbooks ProAdvisor
+                            </li>
+                            <li>
+                                Quickbooks Set-ups
+                            </li>
+                            <li>
+                                Quickbooks Clean-ups
+                            </li>
+                            <li>Client Write-ups</li>
+                            <li>Bank Reconciliations</li>
+                            <li>Notary Public</li>
+                        </ul>
+                    </div>
+
+                </section>
+            </li>
+            <li id="btn3">
+                <div id='aboutDiv' class='btn'>About Us</div>
+                <section id="section-c" class="grid">
+                    <h1 class="sectionHead">ABOUT US</h1>
+                    <div class="sectionContent">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere quidem eum distinctio
+                            error earum culpa repudiandae voluptas consequatur placeat reiciendis cumque ullam tempore sunt,
+                            cupiditate doloribus rem tenetur alias.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, debitis ipsa provident voluptates rerum
+                            explicabo reprehenderit quibusdam labore accusantium, harum esse sit doloribus adipisci unde,
+                            deleniti porro! Saepe ab soluta tenetur nulla, illo quia laboriosam magni molestias voluptatibus
+                            iusto reiciendis dolor laudantium illum, veniam dignissimos facilis! Deleniti maiores voluptate
+                            dolorem illum minima ipsum ratione hic quia delectus, veritatis laudantium provident temporibus
+                            dignissimos qui nobis sed, vero culpa esse quis est quas voluptatibus. Eligendi veniam iure odio
+                            sunt, autem in voluptatum officia minus qui optio ullam excepturi et, fugit quae mollitia.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel cumque fugiat perferendis, consectetur
+                            molestiae!
+                        </p>
+                    </div>
+                </section>
+
+
+            </li>
+            <li id="btn4">
+                <div id='contactDiv' class='btn'>Contact Us</div>
+                <section id="section-d">
+                    <h1 class="sectionHead">Contact Us!</h1>
+                    <div class="sectionContent">
+                        Tel:516-902-3541 Fax:516-355-0755
+                        <br>
+                        <sup>P.O. Box 726, New Hyde Park, NY, 11040</sup>
+                    </div>
+                </section>
+            </li>
+        </ul>
+    </div>
+    <!-- The purpose of the display box div is to parrot the infromation from the sections, when the sections are no longer visible, this will be done by having the jquery constantly parrot the information to an invisible div except for when it is at a width of over 1000px -->
+    <main>
+        <div id="displayBox">
+        </div>
+    </main>
+
+    <footer id="main-footer" class="grid">
+
+        <div>&copy M. Affissio Associates 2018</div>
+    </footer>
+    <script src="js/affissio.js"></script>
+
+</body>
+
+</html>

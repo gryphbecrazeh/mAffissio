@@ -1,0 +1,51 @@
+@media only screen and (min-width: 280px) {
+  .sectionContent {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 570px) {
+body{
+    margin-bottom: 200px;
+}
+    .quickBooksPng {
+    display: block;
+  }
+
+}
+/* @media only screen and (min-width: 1000px) {
+  #navUl {
+    display: grid;
+    grid-template-columns: repeat(1fr 4);
+    grid-template-areas: "btn1 btn2 btn3 btn4";
+    align-content: space-around;
+}
+section{
+    display: none;
+}
+#displayBox{
+    display: block;
+}
+
+  #btn1 {
+    grid-area: btn1;
+  }
+  #btn2 {
+    grid-area: btn2;
+  }
+  #btn3 {
+    grid-area: btn3;
+  }
+  #btn4 {
+    grid-area: btn4;
+  }
+  section{
+      margin: 0;
+      width: 200%;
+  }
+} */
+
+
+/* The problem here is that the sections will still be toggled by the buttons */
+/* I COULD create a second series of buttons on a separate nav bar to do the same thing but that would be unnecessary and really bad code
+I SUPPOSE I could also just figure out a way to make all the tabs start from the end of the screen as opposed to where their div started, that would not work unfortunately
+*/
